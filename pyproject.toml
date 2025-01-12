@@ -21,4 +21,5 @@ build-backend = "poetry.core.masonry.api"
 uvicorn = "^0.34.0"
 black = "^24.10.0"
 flake8 = "^7.1.1"
+pre-commit = "^4.0.1"
 
