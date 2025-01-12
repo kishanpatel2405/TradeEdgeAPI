@@ -1,0 +1,24 @@
+[project]
+name = "tradeedgeapi"
+version = "0.1.0"
+description = "A FastAPI project for managing TradeEdge API services."
+authors = [
+    {name = "kishan",email = "kishanvaghasiya3789@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi (>=0.115.6,<0.116.0)",
+    "requests (>=2.32.3,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+uvicorn = "^0.34.0"
+black = "^24.10.0"
+flake8 = "^7.1.1"
+
